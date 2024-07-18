@@ -38,7 +38,6 @@ export function App() {
 
   function onNoteDeleted(id: string) {
     const noteArray = notes.filter(note => {
-      toast.success('Nota deletada com sucesso. 🚯')
       return note.id != id
     })
 
